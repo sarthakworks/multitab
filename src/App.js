@@ -22,7 +22,7 @@ function App() {
   if (!isVisible)
     return (
       <>
-        <h1>Open another tab to see the result</h1>
+        <h1>Application form</h1>
         {Object.keys(formDataRef.current).map((key) => (
           <input
             key={key}
